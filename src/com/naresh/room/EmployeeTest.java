@@ -24,6 +24,8 @@ public class EmployeeTest {
 		e.setEmployeeName("naresh");
 		System.out.println("employee id:" + e.getEmployeeId()
 				+ "  employeeName:" + e.getEmployeeName());
+		System.out.println("employee id:" + e.getEmployeeId()
+				+ "  employeeName:" + e.getEmployeeName());
 
 	}
 
