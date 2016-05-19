@@ -14,6 +14,8 @@ public class EmployeeTest {
 	 */
 	static{
 		System.out.println("Hello static method....");
+		String[] hello={"one","two","three"};
+		main(hello);
 	}
 	public static void main(String[] args) {
 		Employee e = new Employee();
