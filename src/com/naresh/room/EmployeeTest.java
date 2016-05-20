@@ -17,11 +17,15 @@ public class EmployeeTest {
 		String[] hello = { "one", "two", "three" };
 		main(hello);
 	}
+	public static String getMessage(){
+		return "Hello";
+	}
 
 	public static void main(String[] args) {
 		Employee e = new Employee();
 		e.setEmployeeId(100);
 		e.setEmployeeName("naresh");
+		System.out.println(getMessage()+" "+e.getEmployeeName());
 		System.out.println("employee id:" + e.getEmployeeId()
 				+ "  employeeName:" + e.getEmployeeName());
 		System.out.println("employee id:" + e.getEmployeeId()
