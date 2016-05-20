@@ -31,7 +31,7 @@ public class EmployeeTest {
 		list.add(e1);
 		list.add(e2);
 		list.add(e3);
-		Collections.sort(list);
+		Collections.sort(list, new EmployeeComparator());
 		for (Employee emp : list) {
 			System.out.println("Hello: Mr." + emp.getEmployeeName());
 			System.out.println("Id:" + emp.getEmployeeId() + "  Name:"
