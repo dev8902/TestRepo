@@ -1,4 +1,6 @@
 package com.naresh.room;
+import com.naresh.room.*;
+
 
 import java.util.Comparator;
 

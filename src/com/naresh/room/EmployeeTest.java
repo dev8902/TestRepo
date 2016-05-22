@@ -2,7 +2,6 @@
  * 
  */
 package com.naresh.room;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
